@@ -1,1 +1,7 @@
 hello devops team
+good morning
+pipeline {
+    agent any {
+    tools {
+        maven 'maven3.9.11'
+        java 'jdk17'
