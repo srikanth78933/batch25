@@ -9,3 +9,6 @@ pipeline {
        stage {
             steps ('checkout') {
               git branch:"", url: ""
+      stage {
+          steps {
+             sh 'clean package'
